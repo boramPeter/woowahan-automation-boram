@@ -4,7 +4,7 @@ B마트 재고 API(조회 / 주문 / 취소)를 pytest로 검증하는 프로젝
 
 ## 실행
 
-필요한 것은 [uv](https://docs.astral.sh/uv/) 하나입니다(없으면 `brew install uv`). 의존성(`flask`, `httpx`, `pytest`, `pytest-asyncio`)은 상위 폴더(`무제 폴더/`)의 `pyproject.toml`에 있고, 처음 실행할 때 `uv run`이 가상환경을 만들어 자동으로 설치합니다. 그래서 `requirements.txt`나 별도 설치 명령은 없습니다.
+필요한 것은 [uv](https://docs.astral.sh/uv/) 하나입니다(없으면 `brew install uv`). 의존성(`flask`, `httpx`, `pytest`, `pytest-asyncio`)은 상위 폴더의 `pyproject.toml`에 있고, 처음 실행할 때 `uv run`이 가상환경을 만들어 자동으로 설치합니다. 그래서 `requirements.txt`나 별도 설치 명령은 없습니다.
 
 받은 폴더의 `2번` 안에서 아래를 실행하면 됩니다. 러너(`runner.py`)가 테스트 서버 기동 → pytest 실행 → 서버 종료를 한 번에 하니 터미널 하나면 됩니다.
 
